@@ -4,7 +4,8 @@
 #include <time.h>
 using namespace std;
 
-int createZombie() {
+int createZombie() 
+{
     if (rand() % 67 < 10)
         return 11;
 
@@ -12,7 +13,8 @@ int createZombie() {
         return rand() % 10 + 1;
 }
 
-int main() {
+int main() 
+{
     srand(time(NULL));
     char enter;
 
